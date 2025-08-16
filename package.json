@@ -1,0 +1,39 @@
+{
+  "name": "react_codes",
+  "version": "1.0.0",
+  "description": "React codes",
+  "keywords": [
+    "react",
+    "abhishek",
+    "saini"
+  ],
+  "homepage": "https://github.com/abhisheksaini3232/React_Codes#readme",
+  "bugs": {
+    "url": "https://github.com/abhisheksaini3232/React_Codes/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhisheksaini3232/React_Codes.git"
+  },
+  "license": "ISC",
+  "author": "Abhishek",
+  "type": "commonjs",
+  "scripts": {
+    "start":"parcel index.html",
+    "build" :"parcel build index.html",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+
+  "browserslist":[
+    "last 2 versions"
+  ]
+    
+  
+}
