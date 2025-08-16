@@ -10,4 +10,21 @@ const Header= () => {
      )
 }
 
-     root.render(<Header/>);
+const Footer= () => {
+     return <h2>This is Footer</h2>
+}
+const Body= () => {
+     return <h2>This is Body</h2>
+}
+
+const App=()=>{
+     return (
+          <>
+          <Header/>
+          <Body/>
+          <Footer/>
+          </>
+          
+     )
+}
+     root.render(<App/>);
